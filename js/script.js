@@ -22,7 +22,7 @@ $(document).ready(function() {
   // Retrieves weather periodically
   function updateWeather() {
     var url =
-      "http://api.openweathermap.org/data/2.5/weather?lat=" + POSITION_LAT + 
+      "https://api.openweathermap.org/data/2.5/weather?lat=" + POSITION_LAT + 
       "&lon="+ POSITION_LON +"&appid=" + WEATHER_API_KEY;
     $.ajax({
       url: url,
