@@ -72,7 +72,7 @@ $(document).ready(function() {
   }
   
   var listInt = [];
-  for (var i = 1; i <= 71; i++) {
+  for (var i = 1; i <= 14; i++) {
       listInt.push(i);
   }
   shuffle(listInt);
@@ -83,7 +83,7 @@ $(document).ready(function() {
     $('#container').css('background-image', 'url(images/image' + listInt[i] + '.JPG');
     console.log(listInt[i])
     i++;
-    if (i == 70) {
+    if (i == 13) {
         i = 0;
         shuffle(listInt);
     }
